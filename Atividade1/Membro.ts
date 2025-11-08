@@ -1,6 +1,7 @@
+import { Livro } from './Livro';
 // A classe Membro representa um usuário da biblioteca
 // Ela controla os livros que o membro tem emprestado e gerencia empréstimos/devoluções
-class Membro {
+export class Membro {
     private nome: string;
     private identificacao: string;
     private livrosEmprestados: Livro[];

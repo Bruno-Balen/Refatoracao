@@ -1,6 +1,6 @@
 // A classe Livro representa um livro físico na biblioteca
 // Ela mantém informações básicas do livro e controla sua disponibilidade
-class Livro {
+export class Livro {
     private titulo: string;
     private autor: string;  
     private editora: string;

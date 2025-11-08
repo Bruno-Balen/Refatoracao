@@ -1,3 +1,6 @@
+import { Livro } from './Livro';
+import { Membro } from './Membro';
+
 // Criação dos livros com seus dados completos
 const livro1 = new Livro("Dom Casmurro", "Machado de Assis", "Companhia das Letras", 1899, true);
 const livro2 = new Livro("1984", "George Orwell", "Companhia das Letras", 1949, true);
