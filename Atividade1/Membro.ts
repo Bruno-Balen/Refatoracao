@@ -26,6 +26,8 @@ export class Membro {
     // Devolve um livro que estava emprestado
     public devolverLivro(livro: Livro): void {
         const index = this.livrosEmprestados.indexOf(livro);
+        
+        // Se o livro está na lista de emprestados, devolve
         if (index !== -1) {
             livro.devolver();
             this.livrosEmprestados.splice(index, 1);
