@@ -1,0 +1,27 @@
+{
+  "name": "refatoracao",
+  "version": "1.0.0",
+  "description": "trabalho",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json",
+    "start:atividade2": "ts-node ./Atividade2/Atividade_2.ts",
+    "run:atividade2": "npm run build && node ./dist/Atividade2/Atividade_2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bruno-Balen/Refatoracao.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bruno-Balen/Refatoracao/issues"
+  },
+  "homepage": "https://github.com/Bruno-Balen/Refatoracao#readme",
+  "devDependencies": {
+    "@types/node": "^24.9.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
